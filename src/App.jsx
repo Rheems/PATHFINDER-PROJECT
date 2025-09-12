@@ -12,7 +12,7 @@ import LandingPage from "./pages/LandingPage";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import ForgotPassword from "./pages/ForgotPassword";
-import DashboardHome from "./pages/Dashboard/DashboardHome.jsx";
+import DashboardHome from "./pages/Dashboard/DashboardHome";
 import Courses from "./pages/Courses";
 import Assignments from "./pages/Assignments";
 import Profile from "./pages/Profile";
@@ -55,13 +55,13 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={user ? <Navigate to="/dashboard" /> : <LandingPage />}
+            element={user ? <Navigate to="/Dashboard" /> : <LandingPage />}
           />
           <Route
             path="/login"
             element={
               user ? (
-                <Navigate to="/dashboard" />
+                <Navigate to="/Dashboard" />
               ) : (
                 <Login onLogin={handleLogin} />
               )
@@ -71,7 +71,7 @@ function App() {
             path="/signup"
             element={
               user ? (
-                <Navigate to="/dashboard" />
+                <Navigate to="/Dashboard" />
               ) : (
                 <SignUp onLogin={handleLogin} />
               )
@@ -79,10 +79,10 @@ function App() {
           />
           <Route
             path="/forgot-password"
-            element={user ? <Navigate to="/dashboard" /> : <ForgotPassword />}
+            element={user ? <Navigate to="/Dashboard" /> : <ForgotPassword />}
           />
           <Route
-            path="/dashboard"
+            path="/Dashboard"
             element={
               user ? (
                 <Dashboard user={user} onLogout={handleLogout} />
