@@ -12,7 +12,7 @@ import LandingPage from "./pages/LandingPage";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import ForgotPassword from "./pages/ForgotPassword";
-import DashboardHome from "./pages/dashboard/DashboardHome.jsx";
+import DashboardHome from "./pages/Dashboard/DashboardHome.jsx";
 import Courses from "./pages/Courses";
 import Assignments from "./pages/Assignments";
 import Profile from "./pages/Profile";
