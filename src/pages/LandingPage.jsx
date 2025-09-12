@@ -97,7 +97,7 @@ const LandingPage = () => {
               comprehensive course materials, and robust tracking tools.
             </p>
             <p>
-              Founded in 2023, our mission is to make quality education
+              Founded in 2025, our mission is to make quality education
               accessible to everyone, regardless of their background or
               location.
             </p>
@@ -126,11 +126,11 @@ const LandingPage = () => {
             <div className="footer-section">
               <h4>Contact</h4>
               <p>Email: info@pathfinder.com</p>
-              <p>Phone: +1 (555) 123-4567</p>
+              <p>Phone: 08069558239</p>
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2023 Pathfinder. All rights reserved.</p>
+            <p>&copy; 2025 Pathfinder. All rights reserved.</p>
           </div>
         </div>
       </footer>
